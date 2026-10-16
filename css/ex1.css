@@ -1,28 +1,28 @@
 body{
 	text-align: center; /* 文字置中 */
-    background: #bdd4aa;
-    color: #14886f; /* 文字顏色 */
+    background: #eef5db;
+    color: #4f6367; /* 文字顏色 */
     padding: 0; /* 滿版 */
 	margin: 0; /* 滿版 */
 }
 
 /*nav*/
 nav{
-	background: #bc6c25;
+	background: #4f6367;
 }
 
 nav a{
-	background: #0c6741;
-    padding: 20px;
+	background: #7a9e9f;
+    padding: 10px;
+	width: 150px;
     display: inline-block;
-
-    color: #fdfdfd;
+	color: #ffffff;
     text-decoration: none;
 }
 
 nav a:hover{
-	background: #fefae0;
-	color: #bc6c25;
+	background: #ffffff;
+	color: #bcbcbc;
 }
 
 /*section*/
@@ -45,22 +45,25 @@ article img{
 	border-radius: 50%;
 }
 
+
 article a{
 	display: inline-block;
-	color:#bc6c25;
+	color:#4f6367;
 	background: #ffffff;
 	text-decoration: none;
 	padding-bottom: 20px;
+	transition: transform 0.5s;
 }
 
 article a:hover{
 	color:#ffffff;
-	background: #492200;
+	background: #7a9e9f;
+	transform: scale(1.1);
 }
 
 article a:active{
 	color:#ffffff;
-	background: #BC6C25;
+	background: #4f6367;
 }
 
 /*版權那塊的上下寬度*/
